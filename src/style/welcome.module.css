@@ -1,0 +1,64 @@
+/* .base{
+    background-color: navy;
+    background-size: cover;
+    width: 100vw;
+} */
+.WelcomeContainer{
+/*     
+    padding: 1em 3em;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; */
+    padding-top: 3.5em;
+    /* position: absolute;
+    top: 0; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3.5em;
+    height: 100vh;
+    width: 100%;
+   
+    background-color: #f2f0e4;
+
+
+}
+.WelcomeContainer h1{
+    
+
+        font-size: 1.8em;
+        font-weight:500;
+        font-style:normal;
+        margin-bottom:0;
+        color : var(--textColor);
+ 
+}
+.WelcomeInfo{
+    height:243px;
+    overflow: auto;
+}
+.WelcomeInfo p{
+    margin-bottom: 2em;
+    font-size: 1em;
+    font-style: normal;
+    color: var(--textColor);
+    font-weight: 400;
+}
+.actionBtn{
+    /* width: 100vw; */
+    align-self:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.actionBtn > a:last-child{
+    color: var(--btnBgColor);
+    font-size: 0.875em;
+}
